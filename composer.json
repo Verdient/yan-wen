@@ -1,0 +1,30 @@
+{
+    "name": "verdient/yan-wen",
+    "description": "YanWen",
+    "type": "library",
+    "keywords": [
+        "YanWen"
+    ],
+    "homepage": "https://github.com/Verdient/yan-wen",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Verdient.",
+            "email": "fagui.zhu@foxmail.com",
+            "homepage": "https://github.com/Verdient"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/Verdient/yan-wen/issues",
+        "source": "https://github.com/Verdient/yan-wen"
+    },
+    "require": {
+        "php": "^8.0",
+        "verdient/http-api": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Verdient\\YanWen\\": "src"
+        }
+    }
+}
